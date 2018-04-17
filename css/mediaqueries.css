@@ -1,0 +1,180 @@
+/*  A B O U T   U S  */
+	/*  Home Page 'About Us' Panel Starts Here  */
+		/*  Text and Photo Stack for Small Devices  */
+			@media screen and (max-width: 540px) {
+				#aboutUsText p
+				{
+				width: 80vw;
+				}
+			}
+	/*  Home Page 'About Us' Panel Ends Here  */
+
+
+
+/*  W H A T ' S   O N   P A N E L S  */
+		/*  Layout Changes from Four Columns to Three Columns for Smaller Devices  */
+			@media screen and (min-width: 769px) and (max-width: 1024px) {
+		 	.whatsOnItems
+				{
+				max-width: 32%;
+				}
+			}
+
+		/*  Layout Changes from Three Columns to Two Columns for Smaller Devices  */
+			@media screen and (min-width: 541px) and (max-width: 768px) {
+		 	.whatsOnItems
+				{
+				max-width: 49%;
+				}
+			}
+
+		/*  Layout Changes from Two Columns to One Column for Smaller Devices  */
+			@media screen and (max-width: 540px) {
+		 	.whatsOnItems
+				{
+				max-width: 100%;
+				}
+			}
+	/*  Generic Page Drop Down Menu Navigation Ends Here  */
+
+
+
+/*  S H O P   P A N E L S  */
+		/*  Layout Changes from Four Columns to Three Columns for Smaller Devices  */
+			@media screen and (min-width: 769px) and (max-width: 1024px) {
+		 	.productPanel
+				{
+				max-width: 32%;
+				}
+			}
+
+			@media screen and (min-width: 541px) and (max-width: 768px) {
+		 	.productPanel
+				{
+				max-width: 49%;
+				}
+			}
+
+		/*  Layout Changes from Two Columns to One Column for Smaller Devices  */
+			@media screen and (max-width: 540px) {
+		 	.productPanel
+				{
+				max-width: 100%;
+				}
+			}
+	/*  Generic Page Drop Down Menu Navigation Ends Here  */
+
+
+
+/*  M A I N   M E N U   N A V I G A T I O N  */
+	/*  Generic Page Drop Down Menu Navigation Starts Here  */
+		/*  Menu Changes to Hamburger/Drop Down Menu for Small Devices  */
+			@media screen and (max-width: 540px) {
+		 	.headerNavigationRightList
+				{
+				float: left;
+				}
+			.headerNavigationRightList li
+				{
+				padding-left: 0px;
+				padding-right: 6px;
+				}
+			#headerNavigationLeft
+				{
+				margin-top: 1px;
+				margin-bottom: 6px;
+				}
+			#cartContainer
+				{
+				float: left;
+				}
+			}
+	/*  Generic Page Drop Down Menu Navigation Ends Here  */
+
+
+	/*  Generic Page Drop Down Menu Navigation Starts Here  */
+		/*  Menu Changes to Hamburger/Drop Down Menu for Small Devices  */
+			@media screen and (max-width: 540px) {
+		 	#mainMenuOuterContainer
+				{
+				display: none;
+				}
+			#dropDownContainer
+				{
+				display: block;
+				}
+			}
+	/*  Generic Page Drop Down Menu Navigation Ends Here  */
+
+
+	/*  Remove Five Food/Drink Menu Links and Put in Drop Drop Down Menu for Small Devices  */
+			@media screen and (max-width: 540px) {
+		 	.fiveMenuLinksPanel
+				{
+				display: none;
+				}
+
+			#ourMenusText p
+				{
+				padding-top: 20px;
+				padding-bottom: 20px;
+				}
+			}
+	/*  Generic Page Drop Down Menu Navigation Ends Here  */
+
+
+
+/*  F O O T E R  */
+	/* Generic Page Footer Starts Here */
+			@media (max-width: 450px) {
+			#footerOuterLeft, #footerInnerLeft,	#footerInnerRight, #footerOuterRight
+				{
+				width: 100%;
+				}
+			#footerInnerLeft h3, #footerInnerRight h3, #footerOuterRight h3
+				{
+				padding-top: 20px;
+				}
+			.webAddress
+				{
+				margin-top: 5px;
+				}
+			}
+
+			@media (min-width: 451px) and (max-width: 540px) {
+			#footerOuterLeft, #footerInnerLeft,	#footerInnerRight, #footerOuterRight
+				{
+				width: 100%;
+				}
+			#footerInnerLeft h3, #footerInnerRight h3, #footerOuterRight h3
+				{
+				padding-top: 20px;
+				}
+			.webAddress
+				{
+				margin-top: 5px;
+				}
+			}
+
+			@media (min-width: 541px) and (max-width: 768px){
+			#footerOuterLeft, #footerInnerLeft,	#footerInnerRight, #footerOuterRight
+				{
+				width: 50%;
+				}
+			#footerInnerRight h3, #footerOuterRight h3
+				{
+				padding-top: 20px;
+				}
+			}
+
+			@media (min-width: 769px) and (max-width: 1024px){
+			#footerOuterLeft, #footerInnerLeft,	#footerInnerRight
+				{
+				width: 33%;
+				}
+			#footerOuterRight
+				{
+				width: 100%;
+				}
+			}
+	/* Generic Page Footer Ends Here */

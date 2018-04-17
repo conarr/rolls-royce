@@ -1,0 +1,70 @@
+body
+	{
+	background-color: #fef2d9;
+	max-width: 1100px;
+	font-family: 'Open Sans', sans-serif;
+	font-size: 12pt;
+	line-height: 15pt;
+	font-weight: 300;
+	margin: 0 auto 0 auto;
+	}
+
+img
+	{
+    width: 100%;
+    height: auto;
+	}
+
+h1, h3
+	{
+	font-weight: 600;
+	padding: 10px;
+	text-align: center;
+	}
+
+h1
+	{
+	color: #5a2729;
+	font-size: 24px;
+	line-height: 27px;
+	text-transform: uppercase;
+	}
+
+h3
+	{
+	color: #7e2e1f;
+	font-size: 18px;
+	line-height: 24px;
+	}
+
+p, li
+	{
+	padding: 10px;
+	}
+
+#priceBox
+	{
+	background-color: #855723;
+	width: 25%;
+	margin: 0 auto 0 auto;
+	}
+
+#priceBox p
+	{
+	text-align: center;
+	color: #fef2d9;
+	}
+
+footer p
+	{
+	text-align: center;
+	color: #855723;
+	font-size: 14px;
+	}
+
+@media screen and (max-width: 540px) {
+	#priceBox
+	{
+	width: 75%;
+	}
+}
